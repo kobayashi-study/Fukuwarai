@@ -25,7 +25,6 @@ public class PartsController : MonoBehaviour
         audioSources[0].Play();
     }
 
-
     //↓顔のパーツをドラッグ操作できる
     private void OnMouseDrag()
     {
@@ -44,13 +43,13 @@ public class PartsController : MonoBehaviour
         audioSources[1].Play();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Button")
         {
             isMove = false;
         }
-    }
+    }*/
 }
     /*
     private void OnTriggerExit2D(Collider2D collision)
