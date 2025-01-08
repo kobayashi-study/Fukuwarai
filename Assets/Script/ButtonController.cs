@@ -11,7 +11,7 @@ public class ButtonController : MonoBehaviour
     [SerializeField] float waitSeconds;
     private AudioSource audioSource;
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         audioSource = GetComponent<AudioSource>();
     }
@@ -36,11 +36,11 @@ public class ButtonController : MonoBehaviour
         StartCoroutine(SceneChange());
     }
 
-    private void SpriteChange() 
+    protected virtual void SpriteChange() 
     {
         this.GetComponent<SpriteRenderer>().sprite = click;
     }
-    private IEnumerator SceneChange()
+    protected virtual IEnumerator SceneChange()
     {
         SpriteChange();
         audioSource.Play();
