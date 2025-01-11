@@ -28,7 +28,7 @@ public class PartsController : MonoBehaviour
     //↓顔のパーツをドラッグ操作できる
     private void OnMouseDrag()
     {
-        Vector3 mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1);
+        Vector3 mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(transform.position).z);
         Vector3 mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
 
         if (isMove)
