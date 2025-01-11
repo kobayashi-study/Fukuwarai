@@ -7,12 +7,12 @@ public static class ScoreManager
 {
     private static float currentScore;
     // Start is called before the first frame update
-    public static void SetScore(float score) 
+    public static void SetScore(float score)
     {
         currentScore = score;
     }
 
-    public static float GetScore() 
+    public static float GetScore()
     {
         return currentScore;
     }

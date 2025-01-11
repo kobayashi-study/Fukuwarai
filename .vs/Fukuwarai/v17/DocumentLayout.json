@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|d:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\fukuwarai\\assets\\script\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|d:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\fukuwarai\\assets\\script\\stargenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stargenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|d:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\fukuwarai\\assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\cursorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cursorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\finishbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\cursorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cursorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,23 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "StarGenerator.cs",
+              "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\StarGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StarGenerator.cs",
+              "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\StarGenerator.cs",
+              "RelativeToolTip": "Assets\\Script\\StarGenerator.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwFkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T13:27:24.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ScoreManager.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ScoreManager.cs",
               "RelativeToolTip": "Assets\\Script\\ScoreManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T11:35:27.058Z"
+              "WhenOpened": "2025-01-07T11:35:27.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FinishButtonController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\FinishButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\FinishButtonController.cs",
@@ -74,20 +88,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ScoreController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ScoreController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ScoreController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ScoreController.cs",
               "RelativeToolTip": "Assets\\Script\\ScoreController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAiwJoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwJoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T10:24:12.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T10:24:12.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RotateController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\RotateController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\RotateController.cs",
@@ -99,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TitleController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\TitleController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TitleController.cs",
@@ -117,47 +130,33 @@
               "RelativeDocumentMoniker": "Assets\\Script\\ButtonController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ButtonController.cs",
               "RelativeToolTip": "Assets\\Script\\ButtonController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T05:31:49.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T05:31:49.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Test.cs",
-              "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\Test.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Test.cs",
-              "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\Test.cs",
-              "RelativeToolTip": "Assets\\Script\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T11:58:12.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "CursorController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\CursorController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CursorController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\CursorController.cs",
               "RelativeToolTip": "Assets\\Script\\CursorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T09:42:55.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PartsController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\PartsController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PartsController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\PartsController.cs",
               "RelativeToolTip": "Assets\\Script\\PartsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T10:27:15.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T10:27:15.91Z"
             }
           ]
         }
