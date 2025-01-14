@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public static class ScoreManager
+public static class GameManager
 {
     private static float currentScore;
+    private static bool BGM = false;
     // Start is called before the first frame update
     public static void SetScore(float score)
     {
@@ -17,4 +18,13 @@ public static class ScoreManager
         return currentScore;
     }
 
+    public static void SetBGM(bool flag)
+    {
+        BGM = flag;
+    }
+
+    public static bool GetBGM()
+    {
+        return BGM;
+    }
 }

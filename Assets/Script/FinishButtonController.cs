@@ -6,6 +6,7 @@ using UnityEngine;
 public class FinishButtonController : ButtonController
 {
     private ScoreController scoreController;
+    [SerializeField] private BGMController bgmController;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -21,7 +22,10 @@ public class FinishButtonController : ButtonController
 
     protected override IEnumerator SceneChange() 
     {
-        ScoreManager.SetScore(scoreController.CalculateScore());
+        GameManager.SetScore(scoreController.CalculateScore());
+        bgmController.SetDontDestroyFlg(false);
+        bgmController.DestroyBGM();
+        GameManager.SetBGM(false);
         yield return base.SceneChange();
     }
 }

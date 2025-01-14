@@ -7,6 +7,7 @@ public class PartsController : MonoBehaviour
 {
     private AudioSource[] audioSources;
     private bool isMove = true;
+    private Vector3 distance;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,9 @@ public class PartsController : MonoBehaviour
     {
         audioSources = GetComponents<AudioSource>();
         audioSources[0].Play();
+        Vector3 mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(transform.position).z);
+        Vector3 mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
+        distance = this.transform.position - mouseWor;
     }
 
     //↓顔のパーツをドラッグ操作できる
@@ -33,7 +37,7 @@ public class PartsController : MonoBehaviour
 
         if (isMove)
         {
-            this.transform.position = mouseWor;
+            this.transform.position = mouseWor + distance;
         }
     }
 
