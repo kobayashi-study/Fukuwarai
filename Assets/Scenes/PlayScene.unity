@@ -262,6 +262,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3379337354501416868, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5202428354680683922, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_Size.y
       value: 0.69180965
@@ -299,8 +303,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 94b28e647b8791844935fe64c9090ba4, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5202428354680683922, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
@@ -376,8 +404,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 93475f9c76ab54d40a6abe0dcaa49836, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5202428354680683922, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
@@ -1400,7 +1452,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e2d6dde925a574b44a34a3456cf86d2a, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -1585,8 +1661,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 94b28e647b8791844935fe64c9090ba4, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5202428354680683922, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
@@ -1835,6 +1935,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 93475f9c76ab54d40a6abe0dcaa49836, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_SpriteSortPoint
       value: 0
       objectReference: {fileID: 0}
@@ -1842,8 +1946,27 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5202428354680683922, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -2129,14 +2252,91 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: d9821f8400adb2c4c90e9adde6477eaa, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1234157029}
   m_SourcePrefab: {fileID: 100100000, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+--- !u!1 &1234157028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+  m_PrefabInstance: {fileID: 1234157027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1234157029
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234157028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.25, y: 0.11}
+    newSize: {x: 0.25, y: 0.11}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 0.11}
+  m_EdgeRadius: 0
 --- !u!1 &1244158434 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
@@ -2750,7 +2950,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e2d6dde925a574b44a34a3456cf86d2a, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -3171,6 +3395,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 719297957069928980, guid: 040048ca8957b0045afeb6312c37f493, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1342128120811810746, guid: 040048ca8957b0045afeb6312c37f493, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3178,6 +3406,10 @@ PrefabInstance:
     - target: {fileID: 1342128120811810746, guid: 040048ca8957b0045afeb6312c37f493, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856534193745639405, guid: 040048ca8957b0045afeb6312c37f493, type: 3}
+      propertyPath: m_BodyType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5621485593619084591, guid: 040048ca8957b0045afeb6312c37f493, type: 3}
       propertyPath: click
@@ -3304,14 +3536,91 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 29f6f18453a0c6f409c369931269d043, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkBox.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: checkRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7117822893194031886, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: collision.y
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6237962635358305097}
   m_SourcePrefab: {fileID: 100100000, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+--- !u!1 &6237962635358305096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+  m_PrefabInstance: {fileID: 6237962635358305095}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &6237962635358305097
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6237962635358305096}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.29}
+    newSize: {x: 0.68, y: 0.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.68, y: 0.29}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
