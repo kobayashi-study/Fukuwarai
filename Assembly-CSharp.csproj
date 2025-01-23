@@ -61,14 +61,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\StarGenerator.cs" />
+    <Compile Include="Assets\Script\CancelButtonController.cs" />
     <Compile Include="Assets\Script\ScoreController.cs" />
     <Compile Include="Assets\Script\ButtonController.cs" />
     <Compile Include="Assets\Script\CursorController.cs" />
     <Compile Include="Assets\Script\RotateController.cs" />
+    <Compile Include="Assets\Script\TabController.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\TitleController.cs" />
     <Compile Include="Assets\Script\FinishButtonController.cs" />
     <Compile Include="Assets\Script\PartsController.cs" />
+    <Compile Include="Assets\Script\TabManager.cs" />
     <Compile Include="Assets\Script\StartButtonController.cs" />
     <Compile Include="Assets\Script\BGMController.cs" />
   </ItemGroup>

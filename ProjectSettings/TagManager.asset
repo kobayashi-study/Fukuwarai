@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Button
   - FaceParts
+  - Tab
   layers:
   - Default
   - TransparentFX
