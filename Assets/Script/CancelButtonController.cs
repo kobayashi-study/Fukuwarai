@@ -8,7 +8,7 @@ public class CancelButtonController : MonoBehaviour
     private Vector3 tabTargetPosition;
     private Vector3 tabCurrentVelocity = Vector3.zero;
     private Vector3 buttonCurrentVelocity = Vector3.zero;
-    private Vector3 ofset = new Vector3(0, 5.51f, 0);
+    private Vector3 ofset = new Vector3(0, 5.5f, 0);
     private GameObject currentTopTab;
     private float moveTime = 0.35f;
     private bool isMove = false;

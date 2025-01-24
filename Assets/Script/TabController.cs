@@ -10,11 +10,12 @@ public class TabController : MonoBehaviour
     private GameObject cancelButton;
     private Vector3 tabTargetPosition;
     private Vector3 buttonTargetPosition;
-    private Vector3 currentVelocity = Vector3.zero;
-    private Vector3 ofset = new Vector3(0, 5.5f, 0);
-    private float moveTime = 0.35f;
+    private Vector3 tabCurrentVelocity = Vector3.zero;
+    private Vector3 buttonCurrentVelocity = Vector3.zero;
+    protected Vector3 ofset = new Vector3(0, 5.5f, 0);
+    protected float moveTime = 0.35f;
 
-    void Start()
+    protected virtual void Start()
     {
         cancelButton = GameObject.Find("CancelButton");
         tabTargetPosition = this.transform.position - ofset;
@@ -23,12 +24,13 @@ public class TabController : MonoBehaviour
         camera = Camera.main;
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (TabManager.Instance.getIsMove() == true && TabManager.Instance.getCurrentTopTab() == gameObject) 
         {
-            this.gameObject.transform.position = Vector3.SmoothDamp(this.transform.position, tabTargetPosition, ref currentVelocity, moveTime);
-            cancelButton.transform.position = Vector3.SmoothDamp(cancelButton.transform.position, buttonTargetPosition, ref currentVelocity, moveTime);
+            //refは引用先の変更がスコープ外でも維持される変数のこと
+            this.gameObject.transform.position = Vector3.SmoothDamp(this.transform.position, tabTargetPosition, ref tabCurrentVelocity, moveTime);
+            cancelButton.transform.position = Vector3.SmoothDamp(cancelButton.transform.position, buttonTargetPosition, ref buttonCurrentVelocity, moveTime);
             if (Vector3.Distance(this.gameObject.transform.position, tabTargetPosition) < 0.5f) 
             {
                 Debug.Log("終了");

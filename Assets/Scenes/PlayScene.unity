@@ -218,17 +218,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Okame_LeftEye
       objectReference: {fileID: 0}
+    - target: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalScale.x
       value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.617
+      value: -7.8
       objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.236
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalPosition.z
@@ -304,7 +308,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 94b28e647b8791844935fe64c9090ba4, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -705,6 +709,7 @@ GameObject:
   - component: {fileID: 284653428}
   - component: {fileID: 284653432}
   - component: {fileID: 284653431}
+  - component: {fileID: 284653433}
   m_Layer: 0
   m_Name: Tab_Eye
   m_TagString: Tab
@@ -863,6 +868,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.8431349, y: 1.00213}
   m_EdgeRadius: 0
+--- !u!114 &284653433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284653427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d3e436a9210e34fbc364ed1f59b9e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eyes:
+  - {fileID: 1244158434}
+  - {fileID: 1643659086}
 --- !u!4 &355151592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
@@ -1970,13 +1990,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Okame_RightEye
       objectReference: {fileID: 0}
+    - target: {fileID: 2771132993205889381, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.33
+      value: -9.6
       objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.236
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 3360793867358325863, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2048,7 +2072,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 94b28e647b8791844935fe64c9090ba4, type: 3}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6708498660704303354, guid: ec4b44d1d87714f45b1cad64bc593279, type: 3}
       propertyPath: m_WasSpriteAssigned
@@ -3156,7 +3180,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4c244fd8c8959f8428298b6f53aa4432, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.03
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4226,8 +4250,8 @@ SceneRoots:
   - {fileID: 1811049190}
   - {fileID: 1430407624}
   - {fileID: 1664870343}
-  - {fileID: 728447837}
   - {fileID: 1971576950}
+  - {fileID: 728447837}
   - {fileID: 284653430}
   - {fileID: 5748182670970580775}
   - {fileID: 578593210}
