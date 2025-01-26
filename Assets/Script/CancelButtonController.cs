@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
 public class CancelButtonController : MonoBehaviour
@@ -24,6 +25,12 @@ public class CancelButtonController : MonoBehaviour
     {
         if (isMove == true && currentTopTab != null)
         {
+            /*
+            for (int i = 0; i < currentTopTab.GetComponent<TabController>().partsList.Count; i++) 
+            {
+            
+            }
+            */
             transform.position = Vector3.SmoothDamp(transform.position, buttonTargetPosition, ref buttonCurrentVelocity, moveTime);
             currentTopTab.transform.position = Vector3.SmoothDamp(currentTopTab.transform.position, tabTargetPosition, ref tabCurrentVelocity, moveTime);
             if (Vector3.Distance(this.gameObject.transform.position, buttonTargetPosition) < 0.5f)

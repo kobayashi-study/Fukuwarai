@@ -1,13 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class TabController : MonoBehaviour
 {
-    private new Camera camera;  
+    class MovePartInfo
+    {
+        public GameObject part;
+        public Vector3 velocity;
+        public Vector3 targetPos;
+        public MovePartInfo(GameObject part, Vector3 velocity, Vector3 targetPos)
+        {
+            this.part = part;
+            this.velocity = velocity;
+            this.targetPos = targetPos;
+        }
+    }
+
+    [SerializeField] private GameObject[] parts;
+    private new Camera camera;
     private SpriteRenderer spriteRenderer;
     private GameObject cancelButton;
+    private List<MovePartInfo> movePartInfos = new List<MovePartInfo>();
     private Vector3 tabTargetPosition;
     private Vector3 buttonTargetPosition;
     private Vector3 tabCurrentVelocity = Vector3.zero;
@@ -22,12 +38,27 @@ public class TabController : MonoBehaviour
         buttonTargetPosition = cancelButton.transform.position - ofset;
         spriteRenderer = GetComponent<SpriteRenderer>();
         camera = Camera.main;
+        for (int i = 0; i < parts.Count(); i++)
+        {
+            MovePartInfo movePartInfo = new MovePartInfo(parts[i], Vector3.zero, parts[i].transform.position - ofset);
+            movePartInfos.Add(movePartInfo);
+        }
+
     }
 
     protected virtual void Update()
     {
         if (TabManager.Instance.getIsMove() == true && TabManager.Instance.getCurrentTopTab() == gameObject) 
         {
+            for (int i = 0; i < movePartInfos.Count; i++)
+            {
+                Vector3 velocity = movePartInfos[i].velocity;
+                movePartInfos[i].part.transform.position = Vector3.SmoothDamp(movePartInfos[i].part.transform.position,
+                                                                              movePartInfos[i].targetPos,
+                                                                              ref velocity,
+                                                                              moveTime);
+                movePartInfos[i].velocity = velocity;
+            }
             //refは引用先の変更がスコープ外でも維持される変数のこと
             this.gameObject.transform.position = Vector3.SmoothDamp(this.transform.position, tabTargetPosition, ref tabCurrentVelocity, moveTime);
             cancelButton.transform.position = Vector3.SmoothDamp(cancelButton.transform.position, buttonTargetPosition, ref buttonCurrentVelocity, moveTime);
@@ -36,6 +67,10 @@ public class TabController : MonoBehaviour
                 Debug.Log("終了");
                 TabManager.Instance.setIsMove(false);
             }
+        }
+        if (TabManager.Instance.getIsMove() == true && TabManager.Instance.getCurrentTopTab() == gameObject)
+        {
+            //最前面のタブがこのオブジェクトなら何もしない
         }
     }
 

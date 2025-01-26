@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -10,6 +11,9 @@ public class PartsController : MonoBehaviour
     private Vector3 distance;
     private Vector3 validPosition;
     private Vector3 targetPosition;
+    private Vector3 mouseScr;
+    private Vector3 mouseWor;
+    private bool inTab = true;
 
     void Start()
     {
@@ -20,15 +24,16 @@ public class PartsController : MonoBehaviour
     private void OnMouseDown()
     {
         audioSources[0].Play();
-        Vector3 mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(this.transform.position).z);
-        Vector3 mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
+        Debug.Log("inTabÇÃîªíËÅF" + inTab);
+        mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(this.transform.position).z);
+        mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
         distance = this.transform.position - mouseWor;
     }
 
     private void OnMouseDrag()
     {
-        Vector3 mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(this.transform.position).z);
-        Vector3 mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
+        mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(this.transform.position).z);
+        mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
         targetPosition = mouseWor + distance;
 
         MoveObject();
@@ -37,6 +42,21 @@ public class PartsController : MonoBehaviour
     private void OnMouseUp()
     {
         audioSources[1].Play();
+        //Collider2D[] overlaps = Physics2D.OverlapBoxAll(targetPosition, collision, transform.rotation.eulerAngles.z);
+        //ìñÇΩÇËîªíËÇéÊìæÇµÇƒÅAinTabÇtrueÇ‚falseÇ…ïœä∑Ç∑ÇÈèàóù
+        Collider2D[] overlaps = Physics2D.OverlapPointAll(mouseWor);
+        foreach (Collider2D overlap in overlaps)
+        {
+            if (!(overlap.tag == "Tag"))
+            {
+                inTab = false;
+            }
+            else 
+            {
+                inTab = true;
+            }
+        }
+        Debug.Log("inTabÇÃîªíËÅF" + inTab);
     }
 
     private void MoveObject()

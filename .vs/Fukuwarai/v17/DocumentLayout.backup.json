@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\finishbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\finishbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|d:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\fukuwarai\\assets\\script\\eyetabcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\eyetabcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\stargenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stargenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\cancelbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cancelbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\tabcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +19,16 @@
       "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tabmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|d:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\fukuwarai\\assets\\script\\cancelbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\cancelbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\finishbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\finishbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\stargenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stargenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\bgmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\partscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\buttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA711F50-7AE8-7C30-96CA-C29125DFD6DB}|Assembly-CSharp.csproj|D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\assets\\script\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,17 +70,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "EyeTabController.cs",
+              "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\EyeTabController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EyeTabController.cs",
+              "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\EyeTabController.cs",
+              "RelativeToolTip": "Assets\\Script\\EyeTabController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvyUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:37:24.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CancelButtonController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\CancelButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CancelButtonController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\CancelButtonController.cs",
               "RelativeToolTip": "Assets\\Script\\CancelButtonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T22:59:55.621Z",
               "EditorCaption": ""
@@ -89,7 +106,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\TabManager.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\TabManager.cs",
               "RelativeToolTip": "Assets\\Script\\TabManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T10:34:50.017Z",
               "EditorCaption": ""
@@ -102,39 +119,38 @@
               "RelativeDocumentMoniker": "Assets\\Script\\TabController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\TabController.cs",
               "RelativeToolTip": "Assets\\Script\\TabController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T10:41:14.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "FinishButtonController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\FinishButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\FinishButtonController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\FinishButtonController.cs",
               "RelativeToolTip": "Assets\\Script\\FinishButtonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T06:59:46.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T06:59:46.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ButtonController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ButtonController.cs",
               "ToolTip": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ButtonController.cs",
               "RelativeToolTip": "Assets\\Script\\ButtonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAzwAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T05:31:49.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BGMController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\BGMController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\BGMController.cs",
@@ -142,12 +158,11 @@
               "RelativeToolTip": "Assets\\Script\\BGMController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAADwvxIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T04:49:37.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T04:49:37.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
@@ -159,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PartsController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\PartsController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PartsController.cs",
@@ -171,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "StartButtonController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\StartButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StartButtonController.cs",
@@ -183,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "StarGenerator.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\StarGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\StarGenerator.cs",
@@ -191,12 +206,11 @@
               "RelativeToolTip": "Assets\\Script\\StarGenerator.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:27:24.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T13:27:24.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ScoreController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\ScoreController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ScoreController.cs",
@@ -208,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RotateController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\RotateController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\RotateController.cs",
@@ -220,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TitleController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\TitleController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TitleController.cs",
@@ -232,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CursorController.cs",
               "DocumentMoniker": "D:\\\u30B7\u30E7\u30FC\u30C8\u30AB\u30C3\u30C8\\\u5B66\u7FD2\u7528\\\u30D7\u30ED\u30B8\u30A7\u30AF\u30C8\\Fukuwarai\\Assets\\Script\\CursorController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CursorController.cs",
