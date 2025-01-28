@@ -29,6 +29,10 @@ public class CursorController : MonoBehaviour
             {
                 Cursor.SetCursor(touch, Vector2.zero, CursorMode.Auto);
             }
+            else if (hitObj.tag == "Tab") 
+            {
+                Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            }
         }
         else 
         {

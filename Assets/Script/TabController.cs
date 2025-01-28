@@ -1,29 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class TabController : MonoBehaviour
 {
-    class MovePartInfo
-    {
-        public GameObject part;
-        public Vector3 velocity;
-        public Vector3 targetPos;
-        public MovePartInfo(GameObject part, Vector3 velocity, Vector3 targetPos)
-        {
-            this.part = part;
-            this.velocity = velocity;
-            this.targetPos = targetPos;
-        }
-    }
-
     [SerializeField] private GameObject[] parts;
     private new Camera camera;
     private SpriteRenderer spriteRenderer;
     private GameObject cancelButton;
-    private List<MovePartInfo> movePartInfos = new List<MovePartInfo>();
+    private List<MovePartManager.MovePartInfo> movePartInfos = new List<MovePartManager.MovePartInfo>();
     private Vector3 tabTargetPosition;
     private Vector3 buttonTargetPosition;
     private Vector3 tabCurrentVelocity = Vector3.zero;
@@ -40,7 +28,7 @@ public class TabController : MonoBehaviour
         camera = Camera.main;
         for (int i = 0; i < parts.Count(); i++)
         {
-            MovePartInfo movePartInfo = new MovePartInfo(parts[i], Vector3.zero, parts[i].transform.position - ofset);
+            MovePartManager.MovePartInfo movePartInfo = new MovePartManager.MovePartInfo(parts[i], Vector3.zero, parts[i].transform.position - ofset);
             movePartInfos.Add(movePartInfo);
         }
 
@@ -96,8 +84,26 @@ public class TabController : MonoBehaviour
     {
         if (!(TabManager.Instance.getDontTouch())) 
         {
+            
             TabManager.Instance.setDontTouch(true);
             TabManager.Instance.setIsMove(true);
+            
+            /*
+            Vector2 mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
+            Collider2D hit = Physics2D.OverlapPoint(mousePos);
+
+            // タブ自身がクリックされた時だけ反応
+            if (hit.gameObject == gameObject)
+            {
+                TabManager.Instance.setDontTouch(true);
+                TabManager.Instance.setIsMove(true);
+            }
+            */
         };
+    }
+
+    public List<MovePartManager.MovePartInfo> GetMovePartInfos ()
+    {
+        return this.movePartInfos;
     }
 }

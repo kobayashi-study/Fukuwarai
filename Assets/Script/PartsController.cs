@@ -14,6 +14,11 @@ public class PartsController : MonoBehaviour
     private Vector3 mouseScr;
     private Vector3 mouseWor;
     private bool inTab = true;
+    public bool InTab 
+    { 
+        get { return inTab; } 
+        set { inTab = value; } 
+    }
 
     void Start()
     {
@@ -42,12 +47,11 @@ public class PartsController : MonoBehaviour
     private void OnMouseUp()
     {
         audioSources[1].Play();
-        //Collider2D[] overlaps = Physics2D.OverlapBoxAll(targetPosition, collision, transform.rotation.eulerAngles.z);
         //“–‚½‚è”»’è‚ğæ“¾‚µ‚ÄAinTab‚ğtrue‚âfalse‚É•ÏŠ·‚·‚éˆ—
         Collider2D[] overlaps = Physics2D.OverlapPointAll(mouseWor);
         foreach (Collider2D overlap in overlaps)
         {
-            if (!(overlap.tag == "Tag"))
+            if (!(overlap.tag == "Tab"))
             {
                 inTab = false;
             }
