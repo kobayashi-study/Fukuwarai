@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 139283093}
   m_Layer: 0
   m_Name: Tab_Eyebrow
-  m_TagString: Untagged
+  m_TagString: Tab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3894,7 +3894,7 @@ GameObject:
   - component: {fileID: 1879037882}
   m_Layer: 0
   m_Name: Tab_Other
-  m_TagString: Untagged
+  m_TagString: Tab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
