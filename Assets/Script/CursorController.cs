@@ -21,26 +21,18 @@ public class CursorController : MonoBehaviour
         //カーソルの座標をワールド座標に変換
         Vector2 mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
         //変換したカーソルの座標の下にあるものをOverlapPointで取得
-        Collider2D[] hitObj = Physics2D.OverlapPointAll(mousePos);
+        Collider2D hitObj = Physics2D.OverlapPoint(mousePos);
 
         //OverlapPointで取得したCollider2D(=GameObjectのコンポーネント)がnullではない+タグ付を条件に設定
         if (hitObj != null) 
         {
-            for (int i = 0; i < hitObj.Count(); i++)
+            if (hitObj.tag == "FaceParts" || hitObj.tag == "Button")
             {
-                //Debug.Log("検出されたオブジェクト: " + hitObj[i].gameObject.name + "タグ: " + hitObj[i].tag);
-                if (hitObj[i].tag == "FaceParts" || hitObj[i].tag == "Button")
-                {
-                    Debug.Log("フェイスパーツかボタンに触れています");
-                    Cursor.SetCursor(touch, Vector2.zero, CursorMode.Auto);
-                    break;
-                }
-                else if (hitObj[i].tag == "Tab")
-                {
-
-                    Debug.Log("タブに触れています");
-                    Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-                }
+                Cursor.SetCursor(touch, Vector2.zero, CursorMode.Auto);
+            }
+            else if (hitObj.tag == "Tab")
+            {
+                Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             }
         }
         else 
@@ -48,15 +40,5 @@ public class CursorController : MonoBehaviour
             //触れていない場合は元のカーソル画像に戻す
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         }
-        /*
-        if (hitObj != null)
-        {
-            Debug.Log($"検出されたオブジェクト: {hitObj.gameObject.name}, タグ: {hitObj.tag}");
-        }
-        else
-        {
-            Debug.Log("Colliderが検出されませんでした");
-        }
-        */
     }
 }

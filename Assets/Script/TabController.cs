@@ -40,12 +40,15 @@ public class TabController : MonoBehaviour
         {
             for (int i = 0; i < movePartInfos.Count; i++)
             {
-                Vector3 velocity = movePartInfos[i].velocity;
-                movePartInfos[i].part.transform.position = Vector3.SmoothDamp(movePartInfos[i].part.transform.position,
-                                                                              movePartInfos[i].targetPos,
-                                                                              ref velocity,
-                                                                              moveTime);
-                movePartInfos[i].velocity = velocity;
+                if (movePartInfos[i].part.GetComponent<PartsController>().InTab == true) 
+                {
+                    Vector3 velocity = movePartInfos[i].velocity;
+                    movePartInfos[i].part.transform.position = Vector3.SmoothDamp(movePartInfos[i].part.transform.position,
+                                                                                  movePartInfos[i].targetPos,
+                                                                                  ref velocity,
+                                                                                  moveTime);
+                    movePartInfos[i].velocity = velocity;
+                }
             }
             //refは引用先の変更がスコープ外でも維持される変数のこと
             this.gameObject.transform.position = Vector3.SmoothDamp(this.transform.position, tabTargetPosition, ref tabCurrentVelocity, moveTime);
@@ -87,18 +90,6 @@ public class TabController : MonoBehaviour
             
             TabManager.Instance.setDontTouch(true);
             TabManager.Instance.setIsMove(true);
-            
-            /*
-            Vector2 mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
-            Collider2D hit = Physics2D.OverlapPoint(mousePos);
-
-            // タブ自身がクリックされた時だけ反応
-            if (hit.gameObject == gameObject)
-            {
-                TabManager.Instance.setDontTouch(true);
-                TabManager.Instance.setIsMove(true);
-            }
-            */
         };
     }
 

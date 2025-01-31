@@ -20,8 +20,6 @@ public class CancelButtonController : MonoBehaviour
     void Start()
     {
         buttonTargetPosition = this.transform.position;
-        Debug.Log("キャンセルボタンのStart()が呼ばれました");
-        buttonTargetPosition = this.transform.position;
     }
 
     // Update is called once per frame
@@ -50,23 +48,9 @@ public class CancelButtonController : MonoBehaviour
             }
         }
     }
-    void OnEnable()
-    {
-        Debug.Log("キャンセルボタンが有効化されました");
-    }
 
-    private void OnMouseEnter()
-    {
-        Debug.Log("マウスがキャンセルボタンに触れました");
-    }
-
-    private void OnMouseExit()
-    {
-        Debug.Log("マウスがキャンセルボタンから離れました");
-    }
     private void OnMouseDown()
     {
-        Debug.Log("マウスがクリックされました");
         currentTopTab = TabManager.Instance.getCurrentTopTab();
         movePartInfos = currentTopTab.GetComponent<TabController>().GetMovePartInfos();
         tabTargetPosition = currentTopTab.transform.position + ofset;
