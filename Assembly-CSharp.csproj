@@ -73,7 +73,6 @@
     <Compile Include="Assets\Script\MovePartManager.cs" />
     <Compile Include="Assets\Script\PartsController.cs" />
     <Compile Include="Assets\Script\TabManager.cs" />
-    <Compile Include="Assets\Script\EyeTabController.cs" />
     <Compile Include="Assets\Script\StartButtonController.cs" />
     <Compile Include="Assets\Script\BGMController.cs" />
   </ItemGroup>

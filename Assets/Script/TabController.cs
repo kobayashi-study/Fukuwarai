@@ -12,6 +12,7 @@ public class TabController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private GameObject cancelButton;
     private List<MovePartManager.MovePartInfo> movePartInfos = new List<MovePartManager.MovePartInfo>();
+    private List<Vector3> clickPos = new List<Vector3>();
     private Vector3 tabTargetPosition;
     private Vector3 buttonTargetPosition;
     private Vector3 tabCurrentVelocity = Vector3.zero;
@@ -44,7 +45,7 @@ public class TabController : MonoBehaviour
                 {
                     Vector3 velocity = movePartInfos[i].velocity;
                     movePartInfos[i].part.transform.position = Vector3.SmoothDamp(movePartInfos[i].part.transform.position,
-                                                                                  movePartInfos[i].targetPos,
+                                                                                  clickPos[i] - ofset,
                                                                                   ref velocity,
                                                                                   moveTime);
                     movePartInfos[i].velocity = velocity;
@@ -87,7 +88,11 @@ public class TabController : MonoBehaviour
     {
         if (!(TabManager.Instance.getDontTouch())) 
         {
-            
+            clickPos.Clear();
+            for (int i = 0; i < movePartInfos.Count; i++)
+            {
+                clickPos.Add(movePartInfos[i].part.transform.position);
+            }
             TabManager.Instance.setDontTouch(true);
             TabManager.Instance.setIsMove(true);
         };

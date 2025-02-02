@@ -10,6 +10,7 @@ public class CancelButtonController : MonoBehaviour
     private Vector3 tabTargetPosition;
     private Vector3 tabCurrentVelocity = Vector3.zero;
     private Vector3 buttonCurrentVelocity = Vector3.zero;
+    private List<Vector3> clickPos = new List<Vector3>();
     private Vector3 ofset = new Vector3(0, 5.5f, 0);
     private GameObject currentTopTab;
     List<MovePartManager.MovePartInfo> movePartInfos = new List<MovePartManager.MovePartInfo>();
@@ -33,7 +34,7 @@ public class CancelButtonController : MonoBehaviour
                 {
                     Vector3 velocity = movePartInfos[i].velocity;
                     movePartInfos[i].part.transform.position = Vector3.SmoothDamp(movePartInfos[i].part.transform.position,
-                                                                                  movePartInfos[i].targetPos + ofset,
+                                                                                  clickPos[i] + ofset,
                                                                                   ref velocity,
                                                                                   moveTime);
                     movePartInfos[i].velocity = velocity;
@@ -54,6 +55,13 @@ public class CancelButtonController : MonoBehaviour
         currentTopTab = TabManager.Instance.getCurrentTopTab();
         movePartInfos = currentTopTab.GetComponent<TabController>().GetMovePartInfos();
         tabTargetPosition = currentTopTab.transform.position + ofset;
+
+        clickPos.Clear();
+        for (int i = 0; i < movePartInfos.Count; i++)
+        {
+            clickPos.Add(movePartInfos[i].part.transform.position);
+        }
+
         isMove = true;
     }
 }

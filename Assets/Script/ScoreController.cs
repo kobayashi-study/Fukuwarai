@@ -45,14 +45,14 @@ public class ScoreController : MonoBehaviour
         }
     }
     //↓正解の座標情報
-    private Vector3 rightEyebrowA = new Vector3(-5.68f, 0.954f, 0);
-    private Vector3 leftEyebrowA = new Vector3(-4.27f, 0.954f, 0);
-    private Vector3 rightEyeA = new Vector3(-6.33f, -0.236f, 0);
-    private Vector3 leftEyeA = new Vector3(-3.617f, -0.236f, 0);
-    private Vector3 noseA = new Vector3(-4.96f, -1.06f, 0);
-    private Vector3 rightCheekA = new Vector3(-6.95f, -1.243f, 0);
-    private Vector3 leftCheekA = new Vector3(-2.997f, -1.243f, 0);
-    private Vector3 mouthA = new Vector3(-4.978f, -1.872f, 0);
+    private Vector3 rightEyebrowA = new Vector3(-5.68f, 0.954f, -1);
+    private Vector3 leftEyebrowA = new Vector3(-4.27f, 0.954f, -1);
+    private Vector3 rightEyeA = new Vector3(-6.33f, -0.236f, -1);
+    private Vector3 leftEyeA = new Vector3(-3.617f, -0.236f, -1);
+    private Vector3 noseA = new Vector3(-4.96f, -1.06f, -1);
+    private Vector3 rightCheekA = new Vector3(-6.95f, -1.243f, -1);
+    private Vector3 leftCheekA = new Vector3(-2.997f, -1.243f, -1);
+    private Vector3 mouthA = new Vector3(-4.978f, -1.872f, -1);
     //↓CalculateScoreの繰り返し処理に使用するList「partInfos」を作成。
     private List<PartInfo> partInfos = new List<PartInfo>();
     //↓採点時に使用する点数

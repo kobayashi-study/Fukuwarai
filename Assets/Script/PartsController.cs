@@ -8,6 +8,7 @@ public class PartsController : MonoBehaviour
 {
     [SerializeField] private Vector2 collision;
     private AudioSource[] audioSources;
+    private SpriteRenderer spriteRenderer;
     private Vector3 distance;
     private Vector3 validPosition;
     private Vector3 targetPosition;
@@ -23,13 +24,14 @@ public class PartsController : MonoBehaviour
     void Start()
     {
         audioSources = GetComponents<AudioSource>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         validPosition = this.transform.position;
     }
 
     private void OnMouseDown()
     {
         audioSources[0].Play();
-        Debug.Log("inTabÇÃîªíËÅF" + inTab);
+        spriteRenderer.sortingOrder = 9;
         mouseScr = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.WorldToScreenPoint(this.transform.position).z);
         mouseWor = Camera.main.ScreenToWorldPoint(mouseScr);
         distance = this.transform.position - mouseWor;
@@ -54,13 +56,15 @@ public class PartsController : MonoBehaviour
             if (!(overlap.tag == "Tab"))
             {
                 inTab = false;
+                spriteRenderer.sortingOrder = 7;
             }
             else 
             {
                 inTab = true;
+                spriteRenderer.sortingOrder = 9;
+                break;
             }
         }
-        Debug.Log("inTabÇÃîªíËÅF" + inTab);
     }
 
     private void MoveObject()
