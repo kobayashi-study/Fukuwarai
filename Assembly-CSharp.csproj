@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\StarGenerator.cs" />
+    <Compile Include="Assets\Script\FenceController.cs" />
     <Compile Include="Assets\Script\CancelButtonController.cs" />
     <Compile Include="Assets\Script\ScoreController.cs" />
     <Compile Include="Assets\Script\ButtonController.cs" />
