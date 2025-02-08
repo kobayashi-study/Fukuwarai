@@ -8,7 +8,7 @@ public class CursorController : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] Texture2D touch;
-    private new Camera camera;
+    private Camera camera;
     void Start()
     {
         camera = Camera.main;

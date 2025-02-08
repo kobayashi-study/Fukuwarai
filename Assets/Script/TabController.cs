@@ -8,7 +8,7 @@ using UnityEngine;
 public class TabController : MonoBehaviour
 {
     [SerializeField] private GameObject[] parts;
-    private new Camera camera;
+    private Camera camera;
     private SpriteRenderer spriteRenderer;
     private GameObject cancelButton;
     private List<MovePartManager.MovePartInfo> movePartInfos = new List<MovePartManager.MovePartInfo>();
